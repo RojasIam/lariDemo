@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ html,
+  body {
+    height: 100vh;
+   /*
+    background-image: linear-gradient(135deg,#050518,#040620,#0c1022,#060520,#030236,
+    #000000,#000002);
+    background-size: 1000%;
+    animation:animafond 10s infinite;
+    */
+    background-color: rgb(0, 0, 0);
+  }
+
+  @keyframes animafond{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}    
+
+
+  /*CABECERA*/
+    .cabeza{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        margin-top: 40px;
+        height: 200px;
+        animation-name: efect;
+        animation-duration: 10s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+    }
+  
+    .logo:hover{
+        scale: 1.1;
+        transition: 1s;
+
+    }
+  
+    @keyframes efect{
+        from{
+            transform: perspective(400px) rotatey(0deg);
+        }
+        to{
+            transform: perspective(400px) rotatey(360deg);
+        }
+    }
+    
+    .cabeza-formula {
+        margin-top: 20px;
+        font-size: 2.5em;
+        color: #ffffff;
+        font-family: 'Concert One', cursive;
+       
+      }
+    
+   
+    
+/*VANEGACION*/
+.logo-fonfo{
+        position:absolute;
+        height: 600px;
+        animation-name: efectd;
+        animation-duration: 10s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        opacity: 25%;
+}
+
+@keyframes efectd{
+    from{
+        transform: perspective(400px) rotatey(0deg);
+    }
+    to{
+        transform: perspective(400px) rotatey(360deg);
+    }
+}
+.logo-fonfod{
+        position:absolute;
+        height: 600px;
+        animation-name: efecctd;
+        animation-duration: 10s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        opacity: 25%;
+}
+
+@keyframes efecctd{
+    from{
+        transform: perspective(400px) rotatey(0deg);
+    }
+    to{
+        transform: perspective(400px) rotatey(-360deg);
+    }
+}
+
+a{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(18, 35, 51, 0.5);
+    margin: 8px;
+    border-radius: 10px;
+    border-color: white;
+    border: 10px;
+    box-shadow: 0PX 0PX 5PX 5px rgb(20, 52, 78);
+
+}
+.navigation-links {
+   
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: poppins;
+}
+
+.navigation-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    opacity: .7;
+    transition: all .4s ease;
+}
+
+.navigation-links a:hover {
+    opacity: 1;
+}
+
+.navigation-links a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: monoton;
+    color: rgb(255, 255, 255, .1);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    letter-spacing: 100px;
+    transition: all .4s ease;
+}
+
+.navigation-links a:hover::before {
+    content: attr(data-text);
+    opacity: 1;
+    letter-spacing: 10px;
+}
+
+.cabeza-frase {
+    margin-top: 15px;
+    font-size: 1.7rem;
+    padding: 0.5em 0;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: white;
+    font-family: 'Concert One', cursive;
+        
+    
+  }
+
+.cabeza-frase:hover{
+    color: rgb(5, 6, 68);
+    scale: 1.3;
+    transition: 1s;
+}
+
+
+
+
+
+
+  span{
+    color: rgb(0, 4, 255);
+    font-weight: 600;
+    align-items: center;
+  }
+
+ .flecha{
+    margin-top: 15px;
+    height: 50px;
+    /*transform: translate(0,-20px);
+    transform: translate(0,20px);*/
+    animation: traslate 2s infinite;
+    
+    transform: translate(0);
+ } 
+
+ @keyframes traslate{
+    from{
+        transform: translatey(20px);
+        transform-style:unset;    
+    }
+
+    to{
+        transform: translatey(0px);
+        transform-style:preserve-3d; 
+    }
+
+    
+   
+  
+}
+/**************************/
+ 
