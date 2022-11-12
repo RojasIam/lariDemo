@@ -1,0 +1,68 @@
+
+.grideone{
+width: 1000px;
+margin: 0px auto;
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: auto auto auto auto;
+gap:1em;
+
+}
+
+.grideone div{
+    background: rgb(61, 90, 128);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.grideone div:hover{
+border: 1px solid yellow;
+
+}
+
+.imagenes{
+    height: 190px;
+
+
+}
+
+.boton{
+    border: none;
+    padding: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
+
+.descripcion{
+    text-align: center;
+    color: aquamarine;
+
+}
+
+footer{
+    text-align: center;
+    background: rgb(61, 90, 128);
+    border-radius: 15px;
+    color: aquamarine;
+    grid-column:1/4;
+
+
+}
+/*responsive*/
+@media screen and (max-width: 850px){
+    .grideone{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+
+    }
+    
+     
+}

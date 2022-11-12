@@ -7,7 +7,7 @@
 body {
 	
 	font-family: Arial, sans-serif;
-   
+	align-items: center;
     background-image: linear-gradient(135deg,#050574,#070818,#061552,#08074d,#1b065f,
     #0d0436,#070707);
     background-size: 500%;
@@ -50,7 +50,7 @@ main article {
 /* Enlaces del NAV */
 /* ------------------------- */
 .menu {
-	background: #232F3E;
+	background: #2b4c8a;
 	padding: 5px 0;
 	margin-bottom: 20px;
 }
@@ -315,7 +315,7 @@ main article {
 		justify-content: flex-start;
 		position: fixed;
 		left: 0;
-		background: #232F3F;
+		background: #0d63d3;
 		height: 100vh;
 		width: 80%;
 		z-index: 2000;
@@ -413,30 +413,6 @@ main article {
 		height: 100%;
 	}
 }
-
-.populares{
-	width: 100%;
-	max-width: auto;
-	color: white;
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
-}
-
-.populares__items{
-	
-
-
-}
-
-
-
-
-
-
-
-
 
 
 
