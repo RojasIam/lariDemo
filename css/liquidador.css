@@ -163,7 +163,7 @@ main article {
 }
 
 .grid > div {
-	background: #fff;
+	background:#bbc6dd;
 	box-shadow: 0px 3px 6px rgba(0,0,0,.10);
 }
 
@@ -172,8 +172,8 @@ main article {
 /* ------------------------- */
 
 .grid .btn-regresar {
-	background: #232F3E;
-	color: #fff;
+	background: #018bfc;
+	color: rgb(2, 157, 247);
 	border: none;
 	padding: 10px;
 	border-radius: 3px;
@@ -211,7 +211,7 @@ main article {
 }
 
 .grid .categorias a:hover {
-	color: #E47911;
+	color: #1174e4;  /*                    */
 	font-weight: bold;
 }
 
@@ -260,13 +260,13 @@ main article {
 }
 
 .grid .enlaces-subcategoria a:hover {
-	color: #E47911;
+	color: #1174e4;
 }
 
 .grid .subtitulo {
 	font-size: 18px;
 	font-weight: normal;
-	color: #E47911;
+	color: #1174e4;
 	padding: 10px 20px;
 }
 

@@ -7,13 +7,13 @@
  html,
   body {
     height: 100vh;
-   /*
-    background-image: linear-gradient(135deg,#050518,#040620,#0c1022,#060520,#030236,
-    #000000,#000002);
-    background-size: 1000%;
-    animation:animafond 10s infinite;
-    */
-    background-color: rgb(0, 0, 0);
+   
+    background-image: linear-gradient(135deg,#050574,#070818,#061552,#08074d,#1b065f,
+    #0d0436,#070707);
+    background-size: 500%;
+    animation:animafond 10s infinite ;
+    
+    /*background-color: rgb(0, 0, 0);*/
   }
 
   @keyframes animafond{
@@ -80,7 +80,7 @@
         animation-duration: 10s;
         animation-timing-function:linear;
         animation-iteration-count: infinite;
-        opacity: 25%;
+        opacity: 45%;
 }
 
 @keyframes efectd{
@@ -98,7 +98,7 @@
         animation-duration: 10s;
         animation-timing-function:linear;
         animation-iteration-count: infinite;
-        opacity: 25%;
+        opacity: 45%;
 }
 
 @keyframes efecctd{
@@ -118,7 +118,7 @@ a{
     border-radius: 10px;
     border-color: white;
     border: 10px;
-    box-shadow: 0PX 0PX 5PX 5px rgb(21, 20, 78);
+    
 
 }
 .navigation-links {
